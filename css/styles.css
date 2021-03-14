@@ -85,4 +85,57 @@
     text-decoration: underline;
   }
   
-  
+  @media(max-width:576px){
+    h1 {
+      font-size: 24px;
+    }
+    
+    h2 {
+      font-size: 20px;
+    }
+    
+    h4 {
+      font-size: 15px;
+      opacity: 0.7;
+      margin-top: 5px;
+    }
+    
+    p {
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .about-paragraphs {
+      margin: 10px 0;
+    }
+    .primary-link {
+      border-radius: 4px;
+      padding: 10px 10px;
+      text-transform: capitalize;
+    }
+    
+    .secondary-link {
+   
+      border-radius: 4px;
+      padding: 10px 10px;
+      text-transform: capitalize;
+    }
+    .navigation-links {
+      margin-top: 10px;
+    }
+    .email-link {
+      font-size: 16px;
+    }
+    .container-about{
+      max-width: 75%;
+     display: block;
+     margin:10px auto;
+    }
+    .container-home{
+      max-width: 80%;
+      text-align: center;
+      margin:10px
+    }
+    .col-6{
+      text-align: center;
+    }
+  }
